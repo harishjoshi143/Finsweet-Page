@@ -1,0 +1,166 @@
+@media (max-width: 1400px) {
+  :root {
+    --fs_14: 14px;
+    --fs_16: 14px;
+    --fs_18: 18px;
+    --fs_24: 24px;
+    --fs_28: 28px;
+    --fs_36: 36px;
+    --fs_48: 30px;
+    --fs_56: 56px;
+  }
+}
+@media (max-width: 1200px) {
+  :root {
+    --fs_14: 14px;
+    --fs_16: 12px;
+    --fs_18: 14px;
+    --fs_24: 20px;
+    --fs_28: 28px;
+    --fs_36: 36px;
+    --fs_48: 25px;
+    --fs_56: 56px;
+  }
+}
+@media (max-width: 991px) {
+  :root {
+    --fs_14: 14px;
+    --fs_16: 14px;
+    --fs_18: 18px;
+    --fs_24: 24px;
+    --fs_28: 20px;
+    --fs_36: 30px;
+    --fs_48: 30px;
+    --fs_56: 40px;
+  }
+  .read_btn {
+    padding: 10px 30px;
+  }
+  .nav_links {
+    position: absolute;
+    background-color: black;
+    height: calc(100vh - 53px);
+    z-index: 1;
+    left: -100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    top: 53px;
+    bottom: 0;
+    width: 100%;
+  }
+  .padding_80 {
+    padding: 12px !important;
+  }
+  .box_1 {
+    width: 550px;
+  }
+  .input_2 {
+    width: 550px;
+  }
+  .input_1 {
+    width: 550px;
+  }
+  .sendmsg_btn {
+    width: 550px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --fs_14: 14px;
+    --fs_16: 14px;
+    --fs_18: 18px;
+    --fs_24: 15px;
+    --fs_28: 28px;
+    --fs_36: 26px;
+    --fs_48: 25px;
+    --fs_56: 38px;
+  }
+  .margin_top_120 {
+    margin-top: 50px !important;
+  }
+  .box_1 {
+    width: 400px;
+  }
+  .input_2 {
+    width: 400px;
+  }
+  .input_1 {
+    width: 400px;
+  }
+  .sendmsg_btn {
+    width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  :root {
+    --fs_14: 14px;
+    --fs_16: 10px;
+    --fs_18: 18px;
+    --fs_24: 14px;
+    --fs_28: 16px;
+    --fs_36: 16px;
+    --fs_48: 20px;
+    --fs_56: 20px;
+  }
+  .readmore_btn {
+    padding: 10px 20px;
+  }
+  .padding_90 {
+    padding: 20px;
+  }
+  .card_3 {
+    padding: 30px 20px;
+  }
+  .read_btn {
+    padding: 10px 20px;
+  }
+  .margin_top_120 {
+    margin-top: 60px !important;
+  }
+  .card_1 {
+    background-color: rgb(46, 48, 64);
+    padding: 40px 20px;
+  }
+  input {
+    width: 250px;
+  }
+  .subscribe_btn {
+    padding: 10px 20px;
+  }
+  .padding_96_80 {
+    padding: 50px 26px;
+  }
+  .box_1 {
+    width: 300px;
+    padding: 16px 20px;
+  }
+  .input_2 {
+    width: 300px;
+    padding: 9px 0px 40px 9px;
+  }
+  .input_1 {
+    width: 300px;
+    padding: 10px;
+  }
+  .sendmsg_btn {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .card_set {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+  }
+  .pos_card {
+    position: absolute;
+    left: 10%;
+    bottom: -110%;
+  }
+  .card_2 {
+    background: rgba(255, 255, 255, 1);
+    padding: 64px !important;
+  }
+}
